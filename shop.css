@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat&family=Oswald&family=Rubik+Mono+One&display=swap');
+
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #bbf7d0;
+    
+}
+
+.container > *{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    padding: 24px; 
+    
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.container{
+    display: grid;
+    
+    grid-gap: 20px;
+}
+button{
+    border: none;
+}
+.headerLine-css{
+    
+    background-color: #fff;
+    color: #6d28d9;
+    grid-column: 1/6;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+aside{
+    background-color: #fff;
+    grid-column: 1/2;
+    grid-row: 2/6;
+
+}
+
+main{
+    background-color: #fff;
+    color: black;
+    grid-row: 2/6;
+    grid-column: 2/6;
+
+}
+
+footer{
+    background-color: #fff;
+    grid-column: 1/6;
+}
+
+
+aside ul li {
+    list-style: none;
+}
+
+aside ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #a78bfa;
+}
+
+ul nav-links{
+    display: flex;
+    text-align:left;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+.button-index{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #a78bfa;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #818cf8;
+    width: 100%;
+    height: 100px;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands{
+    padding: 10px;
+}
+
+
+
+
+
+
+/* card CSS */
+
+.price-tag{
+  display: block;
+    padding: 2px;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 300px;
+    position: relative;
+    /* box-shadow: 0 2px 7px #dfdfdf; */
+    margin: 50px auto;
+    background: #fafafa;
+    height: 50px;
+    padding: 5px;  
+   
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+    
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 30%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+
+
+.card-container{
+    display: flex;
+}
+
+
+.wishlist-headline{
+    text-align: center;
+}
+
+

@@ -1,0 +1,23 @@
+.loginHeading{
+    padding: 22px;
+
+}
+
+.loginDiv{
+    margin-left: 40rem;
+    
+}
+
+.emailSection{
+    padding: 10px;
+}
+
+.passwordSection{
+    padding: 10px;
+}
+
+
+.reme{
+    display: flex;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+.deliveryAddressDiv{
+    border: 1px solid black;
+    padding: 24px;
+    margin: 10px;
+}
+
+.editAddressButton{
+    background-color: #34d399;
+    border: none;
+    margin-top: 0.5rem;
+    padding: 8px;
+}
+
+.checkOutTheItems{
+    background-color: #34d399;
+    margin-top: 30rem;
+    margin-left: 40rem;
+    padding: 20px;
+}
